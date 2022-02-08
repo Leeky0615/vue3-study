@@ -1,0 +1,29 @@
+<template>
+  <div v-bind:style="[baseStyle, addStyle]">인라인 스타일 바인딩</div>
+</template>
+
+<script>
+export default {
+  name: '',
+  components: {},
+  data() {
+    return {
+      baseStyle: 'background-color:yellow;width:100%;height:200px;',
+      addStyle: 'color:red;font-weight:bold;'
+    };
+  },
+  setup() {
+  },
+  create() {
+  },
+  mounted() {
+  },
+  unmounted() {
+  },
+  methods: {}
+}
+</script>
+
+<style>
+
+</style>
