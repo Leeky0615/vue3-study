@@ -8,6 +8,7 @@ import Slot from '@/views/slot/SlotUseLayout';
 import ProvideInject from '@/views/provideandinject/ProvideInject';
 import Calculator from '@/views/composition/CompositionAPIProvice';
 import Mixin from '@/views/mixins/MixinComponent';
+import CustomDirective from "@/views/CustomDirective";
 /**
  * Home과 About의 차이
  * - Home은 vue 파일을 미리 import를 해서 사용
@@ -67,6 +68,11 @@ const routes = [
         path: '/mixin',
         name: 'Mixin',
         component: Mixin
+    },
+    {
+        path: '/customDirective',
+        name: 'CustomDirective',
+        component: CustomDirective
     }
 ]
 

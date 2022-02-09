@@ -17,6 +17,8 @@
     <router-link to="/calculator">Calculator</router-link>
     |
     <router-link to="/mixin">Mixin</router-link>
+    |
+    <router-link to="/customDirective">CustomDirective</router-link>
   </div>
   <router-view/>
 </template>
