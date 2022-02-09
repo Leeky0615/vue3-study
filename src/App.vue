@@ -13,6 +13,10 @@
     <router-link to="/slot">ModalLayout With Slot</router-link>
     |
     <router-link to="/provideInject">ProvideInject</router-link>
+    |
+    <router-link to="/calculator">Calculator</router-link>
+    |
+    <router-link to="/mixin">Mixin</router-link>
   </div>
   <router-view/>
 </template>

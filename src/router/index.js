@@ -6,7 +6,8 @@ import ComputedWatch from '@/views/computedandwatch/Watch';
 import Component from "@/views/component/SlotComponent";
 import Slot from '@/views/slot/SlotUseLayout';
 import ProvideInject from '@/views/provideandinject/ProvideInject';
-
+import Calculator from '@/views/composition/CompositionAPIProvice';
+import Mixin from '@/views/mixins/MixinComponent';
 /**
  * Home과 About의 차이
  * - Home은 vue 파일을 미리 import를 해서 사용
@@ -56,6 +57,16 @@ const routes = [
         path: '/provideInject',
         name: 'ProvideInject',
         component: ProvideInject
+    },
+    {
+        path: '/calculator',
+        name: 'Calculator',
+        component: Calculator
+    },
+    {
+        path: '/mixin',
+        name: 'Mixin',
+        component: Mixin
     }
 ]
 

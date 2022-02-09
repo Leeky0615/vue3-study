@@ -11,5 +11,11 @@ export default {
                 console.log(e);
             })).data;
         }
+    },
+    mounted() {
+        console.log('믹스인 mounted')
+    },
+    unmounted() {
+        console.log('믹스인 unmounted')
     }
 }
