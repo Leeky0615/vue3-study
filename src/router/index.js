@@ -3,6 +3,9 @@ import Home from '../views/Home.vue'
 import DataBinding from "@/views/dataBinding/List";
 import Event from '@/views/event/Click';
 import ComputedWatch from '@/views/computedandwatch/Watch';
+import Component from "@/views/component/SlotComponent";
+import Slot from '@/views/slot/SlotUseLayout';
+import ProvideInject from '@/views/provideandinject/ProvideInject';
 
 /**
  * Home과 About의 차이
@@ -38,6 +41,21 @@ const routes = [
         path: '/computed&watch',
         name: 'Computed&Watch',
         component: ComputedWatch
+    },
+    {
+        path: '/component',
+        name: 'Component',
+        component: Component
+    },
+    {
+        path: '/slot',
+        name: 'Slot',
+        component: Slot
+    },
+    {
+        path: '/provideInject',
+        name: 'ProvideInject',
+        component: ProvideInject
     }
 ]
 

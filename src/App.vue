@@ -1,9 +1,18 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/databinding">Data Binding</router-link> |
-    <router-link to="/event">Event</router-link> |
+    <router-link to="/">Home</router-link>
+    |
+    <router-link to="/databinding">Data Binding</router-link>
+    |
+    <router-link to="/event">Event</router-link>
+    |
     <router-link to="/computed&watch">computed & watch</router-link>
+    |
+    <router-link to="/component">Component</router-link>
+    |
+    <router-link to="/slot">ModalLayout With Slot</router-link>
+    |
+    <router-link to="/provideInject">ProvideInject</router-link>
   </div>
   <router-view/>
 </template>
