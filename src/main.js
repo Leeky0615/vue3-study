@@ -12,3 +12,4 @@ app.directive('focus', {
 app.use(router)
 app.mixin(mixins);
 app.mount('#app')
+window.Kakao.init("435e09476728419ab442f1b7b0337652");

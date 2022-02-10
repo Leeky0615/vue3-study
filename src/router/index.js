@@ -9,6 +9,7 @@ import ProvideInject from '@/views/provideandinject/ProvideInject';
 import Calculator from '@/views/composition/CompositionAPIProvice';
 import Mixin from '@/views/mixins/MixinComponent';
 import CustomDirective from "@/views/CustomDirective";
+import KakaoLogin from "@/views/login/KakaoLogin";
 /**
  * Home과 About의 차이
  * - Home은 vue 파일을 미리 import를 해서 사용
@@ -73,6 +74,11 @@ const routes = [
         path: '/customDirective',
         name: 'CustomDirective',
         component: CustomDirective
+    },
+    {
+        path: '/kakaoLogin',
+        name: 'KakaoLogin',
+        component: KakaoLogin
     }
 ]
 

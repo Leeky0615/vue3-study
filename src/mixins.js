@@ -1,5 +1,10 @@
 import axios from 'axios';
 
+axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.headers.post['Content-type'] = 'application/json;charset=utf-8';
+axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
+
+
 export default {
     methods: {
         async $api(url, method, data) {

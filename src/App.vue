@@ -11,7 +11,7 @@
     <router-link to="/component">Component</router-link>
     |
     <router-link to="/slot">ModalLayout With Slot</router-link>
-    |
+    |\
     <router-link to="/provideInject">ProvideInject</router-link>
     |
     <router-link to="/calculator">Calculator</router-link>
@@ -19,6 +19,8 @@
     <router-link to="/mixin">Mixin</router-link>
     |
     <router-link to="/customDirective">CustomDirective</router-link>
+    |
+    <router-link to="/kakaoLogin">KakaoLogin</router-link>
   </div>
   <router-view/>
 </template>
